@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/myscripts.js"></script>
 
     <script src="https://kit.fontawesome.com/69412b810a.js" crossorigin="anonymous"></script>
 
@@ -18,13 +19,16 @@
   </head>
   <body>
 
-<nav>
+<nav id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn b4" onclick="closeNav()">&times;</a>
   <a href="#about"><i class="fas fa-user"></i> about</a>
   <a href="#facts"><i class="fas fa-user-edit"></i> fun facts</a>
   <a href="#gallery"><i class="fas fa-photo-video"></i> gallery</a>
   <a href="#resume"><i class="fas fa-file-alt"></i> resume</a>
   <a href="#" class="name">ashton.</a>
 </nav>
+
+<span onclick="openNav()" class="b4 b14"><i class="fas fa-align-justify"></i></span>
 
 <div id="home">
   <h1>ashton.</h1>
